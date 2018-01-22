@@ -28,6 +28,7 @@
   - Magical Numbers : when using numerals in code, assign that value to a constant with a meaningfull name.
   - Avoid comments if you can. If your code needs many comments you're not naming methods, variables and constants well.
   - Follow Ruby / Rails Style Guide rules.
+  - Be consistent in string quotation throughout your code. Double quotes allow interpolation, use these by default.
 - Test over and over again. Test after each change to see if you broke the code.
   - Arno had something to run the test conintuously so if you break the code, you will see an error instantly (if that terminal is visible). What is it called and where can I find it?
   - Arno also had something called Guard for something. What is it for and where can I find it?
@@ -46,7 +47,7 @@ fatal: remote origin already exists.
 
 Apparently I had already done something, that made this impossible. 
 
-Solved it by :
+Solved it (in this particular case) by :
 
 ```shell
 $ git remote set-url origin git@github.com:ZjanPreijde/CodeDojo-TennisScore.git

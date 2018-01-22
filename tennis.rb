@@ -57,23 +57,23 @@ class TennisGame1
   end
 
   def winner_desc
-    'Win for ' + winning_player_name
+    "Win for #{winning_player_name}"
   end
 
   def advantage_desc
-    'Advantage ' + winning_player_name
+    "Advantage #{winning_player_name}"
   end
 
   def deuce_desc
-    'Deuce'
+    "Deuce"
   end
 
   def equal_desc
-    score_desc(@player1) + '-All'
+    "#{score_desc(@player1)}-All"
   end
 
   def non_equal_desc
-    score_desc(@player1) + '-' + score_desc(@player2)
+    "#{score_desc(@player1)}-#{score_desc(@player2)}"
   end
 
   def score_desc(player)
